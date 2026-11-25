@@ -233,3 +233,52 @@ body { overflow-x: clip; }
   .hero-visual .visual-note { top: 58px; right: 12px; }
   .hero-visual .visual-coord { bottom: 8px; left: 12px; }
 }
+
+/* V8.1 — mobile Fig. 001 integrity fix. Desktop presentation is unchanged. */
+@media(max-width:600px){
+  .hero-visual{
+    height:auto;
+    min-height:0;
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    overscroll-behavior-x:contain;
+    scrollbar-width:thin;
+    scrollbar-color:#52728D #0B2542;
+  }
+  .visual-top{
+    position:relative;
+    top:auto;
+    left:auto;
+    right:auto;
+    width:620px;
+    min-height:34px;
+    padding:11px 12px 8px;
+  }
+  .visual-grid{inset:0;pointer-events:none}
+  .aircraft{
+    position:relative;
+    display:block;
+    width:620px;
+    max-width:none;
+    height:auto;
+    left:auto;
+    top:auto;
+    overflow:visible;
+  }
+  .visual-note{
+    position:relative;
+    right:auto;
+    bottom:auto;
+    width:max-content;
+    margin:10px 12px 8px auto;
+    font-size:7px;
+  }
+  .visual-coord{
+    position:relative;
+    left:auto;
+    bottom:auto;
+    padding:0 12px 12px;
+    font-size:7px;
+  }
+}
