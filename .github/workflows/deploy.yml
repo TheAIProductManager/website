@@ -38,8 +38,8 @@ jobs:
         env:
           GITHUB_ACTIONS: true
           GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_PAGES_BASE_PATH: /website
-          NEXT_PUBLIC_BASE_PATH: /website
+          GITHUB_PAGES_BASE_PATH: ""
+          NEXT_PUBLIC_BASE_PATH: ""
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
