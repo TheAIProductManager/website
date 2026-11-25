@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import "./globals.css";
+export const metadata: Metadata = {title:{default:"The AI Product Manager — AI Product Leadership",template:"%s — The AI Product Manager"},description:"AI product leadership that helps businesses identify where to invest, what to build, and what to avoid.",metadataBase:new URL("https://theaiproductmanager.io"),themeColor:"#071B33"};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><head><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet"/><meta name="portfolio-version" content="v7"/></head><body>{children}</body></html>}

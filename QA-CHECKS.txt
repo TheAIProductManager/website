@@ -1,0 +1,16 @@
+V8 PRE-UPLOAD QA
+
+PASS: Next.js App Router route files exist for /, /approach/, /experience/.
+PASS: Static export output is configured.
+PASS: GitHub Pages workflow builds and deploys the out/ directory.
+PASS: Project URL base path is configured for /website/ preview deployment.
+PASS: Internal legacy HTML links are rewritten for the project base path.
+PASS: Fig. 001 original SVG callouts, labels, layer names and captions remain in source.
+PASS: Specified Cisco disclaimer is absent from page content.
+PASS: Existing V7 page content is carried forward without intended copy edits.
+PASS: Custom domain is documented as a later cutover; no DNS records or CNAME are changed in this package.
+
+NOT YET VERIFIED:
+- npm dependency installation, TypeScript typecheck, and production Next.js build were not completed in this environment because npm dependency resolution timed out.
+- GitHub Actions execution and browser-based desktop/mobile visual QA must be completed after upload.
+- Custom-domain DNS and HTTPS must be configured after confirming current hosting and mail records.
