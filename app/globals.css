@@ -282,3 +282,62 @@ body { overflow-x: clip; }
     font-size:7px;
   }
 }
+
+/* V8.2 — Fig. 001 mobile canvas correction */
+@media (max-width: 600px) {
+  .hero-visual {
+    display: block;
+    height: auto;
+    min-height: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    scrollbar-color: #52728D #0B2542;
+  }
+
+  .hero-visual .visual-top {
+    position: relative;
+    inset: auto;
+    display: flex;
+    width: 760px;
+    min-height: 36px;
+    padding: 12px 14px 8px;
+  }
+
+  .hero-visual .system-blueprint {
+    position: relative;
+    display: block;
+    width: 760px;
+    max-width: none;
+    height: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    padding: 0;
+    margin: 0;
+    transform: none;
+    transform-origin: top left;
+    animation: none;
+  }
+
+  .hero-visual .visual-note {
+    position: relative;
+    inset: auto;
+    width: max-content;
+    margin: 12px 12px 8px auto;
+    padding: 7px 10px;
+    font-size: 7px;
+  }
+
+  .hero-visual .visual-coord {
+    position: relative;
+    inset: auto;
+    padding: 0 12px 12px;
+    font-size: 7px;
+    line-height: 1.5;
+  }
+}
+
