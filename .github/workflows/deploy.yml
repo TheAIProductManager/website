@@ -3,7 +3,7 @@ name: Deploy Next.js static site to GitHub Pages
 
 on:
   push:
-    branches: [main, website-v2/content-repositioning]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
