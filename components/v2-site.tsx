@@ -8,7 +8,7 @@ function Blueprint() {
       <title id="bp-title">From opportunity to commercial outcome</title>
       <desc id="bp-desc">A technical schematic connecting market signals, customer problems, strategic choices, product design, execution and measurable outcomes.</desc>
       <defs><linearGradient id="v2core" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#244f72"/><stop offset="1" stopColor="#0a2039"/></linearGradient></defs>
-      <g fill="none" stroke="#7193ad" opacity=".28" strokeWidth=".8">{[55,125,195,265,335,405].map(y=><path key={y} d={`M25 ${y}H735`}/ >)}{[65,165,265,365,465,565,665].map(x=><path key={x} d={`M${x} 25V405`}/>)}</g>
+      <g fill="none" stroke="#7193ad" opacity=".28" strokeWidth=".8">{[55,125,195,265,335,405].map(y=><path key={y} d={`M25 ${y}H735`}/>)}{[65,165,265,365,465,565,665].map(x=><path key={x} d={`M${x} 25V405`}/>)}</g>
       <g fill="none" stroke="#9fd7f0" strokeWidth="1.2" strokeDasharray="4 6"><path d="M120 125H250L300 175M640 125H510L460 175M120 295H250L300 245M640 295H510L460 245"/></g>
       <g stroke="#b8d0e1" strokeWidth="1.2"><path d="M260 150L380 105L500 150L380 195Z" fill="#173b5d"/><path d="M260 150V270L380 315V195Z" fill="#0c2948"/><path d="M500 150V270L380 315V195Z" fill="url(#v2core)"/><path d="M300 165L380 135L460 165L380 195Z" fill="none"/><path d="M300 235L380 205L460 235L380 265Z" fill="none"/></g>
       <g fill="#f1f6fa" fontFamily="monospace" fontSize="10" letterSpacing="1" textAnchor="middle"><text x="380" y="170">PRODUCT</text><text x="380" y="185">INVESTMENT</text><text x="380" y="225" fill="#9fd7f0">DECISION CORE</text></g>
