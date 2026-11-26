@@ -1,5 +1,6 @@
 
 name: Deploy Next.js static site to GitHub Pages
+# Recovery redeploy: trigger the production build from main without changing site content.
 
 on:
   push:
